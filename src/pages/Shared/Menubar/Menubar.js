@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menubar.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import logo from "../../../../assets/images/Clippers-Web-Logo-1.png";
+import logo from "../../../assets/images/Clippers-Web-Logo-1.png";
 
 const Menubar = () => {
   return (
