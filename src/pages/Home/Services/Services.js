@@ -14,7 +14,7 @@ import Aos from "aos";
 
 const Services = () => {
   useEffect(() => {
-    Aos.init({ duration: 1500 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
