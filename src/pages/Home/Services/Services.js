@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import "./Services.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,8 +9,14 @@ import {
   faCircleHalfStroke,
   faHandPointer,
 } from "@fortawesome/free-solid-svg-icons";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const Services = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <section className="services">
       <div className="container py-5">
@@ -26,7 +32,7 @@ const Services = () => {
           </p>
         </div>
         <Row xs={1} md={2} lg={3} className="mt-3 g-5">
-          <Col className="d-flex">
+          <Col data-aos="fade-down" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faGear} size="2x" />
             </div>
@@ -38,7 +44,7 @@ const Services = () => {
               </small>
             </div>
           </Col>
-          <Col className="d-flex">
+          <Col data-aos="fade-up" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faAlignCenter} size="2x" />
             </div>
@@ -50,7 +56,7 @@ const Services = () => {
               </small>
             </div>
           </Col>
-          <Col className="d-flex">
+          <Col data-aos="fade-down" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faGear} size="2x" />
             </div>
@@ -63,7 +69,7 @@ const Services = () => {
               </small>
             </div>
           </Col>
-          <Col className="d-flex">
+          <Col data-aos="fade-right" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faGear} size="2x" />
             </div>
@@ -75,7 +81,7 @@ const Services = () => {
               </small>
             </div>
           </Col>
-          <Col className="d-flex">
+          <Col data-aos="flip-left" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faSpinner} size="2x" />
             </div>
@@ -87,7 +93,7 @@ const Services = () => {
               </small>
             </div>
           </Col>
-          <Col className="d-flex">
+          <Col data-aos="fade-left" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faCircleHalfStroke} size="2x" />
             </div>
@@ -100,7 +106,7 @@ const Services = () => {
             </div>
           </Col>
           <Col></Col>
-          <Col className="d-flex">
+          <Col data-aos="fade-up" className="d-flex">
             <div className="service-icon mt-2 d-flex justify-content-center align-items-center rounded-circle me-3">
               <FontAwesomeIcon icon={faHandPointer} size="2x" />
             </div>
