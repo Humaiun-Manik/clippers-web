@@ -5,7 +5,7 @@ import logo from "../../../assets/images/Clippers-Web-Logo-1.png";
 
 const Menubar = () => {
   return (
-    <Navbar className="border-bottom" fixed="top" collapseOnSelect expand="lg" bg="light">
+    <Navbar className="border-bottom menu" fixed="top" collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand className="logo" href="#home">
           <img src={logo} alt="" />

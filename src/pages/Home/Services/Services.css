@@ -1,0 +1,9 @@
+.services {
+  background-color: #f2f2f2;
+}
+.service-icon {
+  width: 200px;
+  height: 65px;
+  background-color: #666;
+  color: white;
+}

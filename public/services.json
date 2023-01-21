@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 1,
+    "icon": "faGear",
+    "'name": "CUT-OUT",
+    "description": "Cut-Out or Clipping Path is our most basic service. We process over 10,000 cut-outs everyday. We use basic pen tool for cutting out images for your e-commerce website."
+  },
+  {
+    "_id": 2,
+    "icon": "faAlignCenter",
+    "'name": "CROPPING & ALIGN",
+    "description": "This is one of the basic services we provide to save your time. We just need your instructions to crop your images and make it perfect for your website."
+  },
+  {
+    "_id": 3,
+    "icon": "faAlignCenter",
+    "'name": "GHOST MANNEQUIN",
+    "description": "Since models are expensive and mannequins are distracting, we can assist you to get the best result with this service. We use multiple images and combine them to make the invisible mannequin look perfect."
+  },
+  {
+    "_id": 4,
+    "icon": "faAlignCenter",
+    "'name": "SHADOW",
+    "description": "Putting shadow underneath a packshot adds depth. This includes reflection shadow, natural shadow and drop shadow. These shadows will make your product’s look better than ever."
+  },
+  {
+    "_id": 5,
+    "icon": "faSpinner",
+    "'name": "360 SPINS",
+    "description": "Our 360 Spin service will make your product look more lively. We also provide resizing and alignment with this service. We also can add Shadow to make it even better."
+  },
+  {
+    "_id": 6,
+    "icon": "faCircleHalfStroke",
+    "'name": "COLOR ADJUST",
+    "description": "Color adjustment will help you to get the actual color back and look even better. It also includes color changing; you can create several images out of one photo."
+  },
+  {
+    "_id": 7,
+    "icon": "faHandPointer",
+    "'name": "RETOUCH",
+    "description": "We know how to make beautiful images look even better. Image Retouching includes removing fabric wrinkles, model skin spot removing, product dust removing and so on. We also provide high-end model retouching for look-book and catalog use."
+  }
+]
