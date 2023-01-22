@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Accordion, Col, Row } from "react-bootstrap";
 import resources from "../../../assets/images/infra.jpg";
 import csr from "../../../assets/images/CSR-1-500x200.png";
 import "aos/dist/aos.css";
@@ -49,11 +49,11 @@ const OurStory = () => {
       <div className=" mt-5 pt-4">
         <div className="container mb-5 pb-4">
           <div>
-            <h1 className="text-center">CSR</h1>
-            <p className="mb-2">Our CSR (Corporate Social Responsibility) Policies:</p>
+            <h1 className="text-center pb-5">CSR</h1>
           </div>
           <Row md={1} lg={2}>
             <Col data-aos="fade-right">
+              <p className="mb-2">Our CSR (Corporate Social Responsibility) Policies:</p>
               <ul className="list-group">
                 <li className="list-group-item border-0 p-0">– Weekly 5 day (40 hour) work</li>
                 <li className="list-group-item border-0 p-0">
@@ -79,6 +79,72 @@ const OurStory = () => {
           </Row>
         </div>
         <hr />
+      </div>
+      <div className="container">
+        <Row xs={1} lg={2}>
+          <Col data-aos="zoom-in">
+            <h1 className="my-5">
+              <span className="fw-light">Frequently</span> asked questions
+            </h1>
+            <Accordion>
+              <Accordion.Item eventKey="0" className="border-0">
+                <Accordion.Header>Who are you and how long have you been in business?</Accordion.Header>
+                <Accordion.Body>
+                  We are Clippers Web. We are a Bangladesh based Image Post Production company founded by two
+                  entrepenuers in April 2012.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1" className="border-0">
+                <Accordion.Header>Where are you located?</Accordion.Header>
+                <Accordion.Body>We are located in the capital of Bangladesh.</Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2" className="border-0">
+                <Accordion.Header>What categories of product images do you edit?</Accordion.Header>
+                <Accordion.Body>
+                  We edit all types of images: apparel, models, accessories, jewelry, furnitures, home goods,
+                  automotive, fashion, advertising and so on.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3" className="border-0">
+                <Accordion.Header>What's your basic price?</Accordion.Header>
+                <Accordion.Body>
+                  For simple clipping path (bags, shoes, accessories), we charge as low as $0.35 per image.
+                  Please send us an example and your work volume to get the best quotation from us.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4" className="border-0">
+                <Accordion.Header>How does the free evaluation test work?</Accordion.Header>
+                <Accordion.Body>
+                  You can send an example image from each of your product category with intructions via email
+                  or using our TRIAL. We will deliver the free trial with quotation within 24 hours.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5" className="border-0">
+                <Accordion.Header>Do you provide any security for my images?</Accordion.Header>
+                <Accordion.Body>
+                  Yes, of course. We provide a non-disclosure agreement if necessary. However, all images will
+                  be treated confidentially and will be permanently deleted after 30 days as per your
+                  requirements. The images will never be shared or used for any purpose outside the company.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6" className="border-0">
+                <Accordion.Header>How and when to pay for your services?</Accordion.Header>
+                <Accordion.Body>
+                  We send an invoice on a monthly or bi-weekly basis upon agreement. We accept payment via
+                  PayPal and Bank Wire Transfers.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7" className="border-0">
+                <Accordion.Header>Can I talk to someone?</Accordion.Header>
+                <Accordion.Body>
+                  Sure, you can add us up on our Skype (ID: clippersweb) or send us an email and we will be
+                  right back to you.
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>
+          </Col>
+          <Col></Col>
+        </Row>
       </div>
     </section>
   );
