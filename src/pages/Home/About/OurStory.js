@@ -80,7 +80,7 @@ const OurStory = () => {
         </div>
         <hr />
       </div>
-      <div className="container">
+      <div className="container mb-5">
         <Row xs={1} lg={2}>
           <Col data-aos="zoom-in">
             <h1 className="my-5">

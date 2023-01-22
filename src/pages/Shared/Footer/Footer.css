@@ -1,0 +1,8 @@
+.footer-menu a {
+  text-decoration: none;
+  color: grey;
+  transition: 0.5s;
+}
+.footer-menu a:hover {
+  color: #0084ff;
+}
