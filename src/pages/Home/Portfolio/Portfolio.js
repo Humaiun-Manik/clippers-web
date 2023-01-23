@@ -31,8 +31,8 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <section className="container my-5 mb-5">
-      <h1 className="fw-bold">Portfolio</h1>
+    <section id="portfolio" className="container my-5 mb-5  pt-5">
+      <h1 className="fw-bold pt-5">Portfolio</h1>
       <p className="fs-5 fw-light">
         Please send us some of your unedited images for a TRIAL to understand our quality better.
       </p>

@@ -13,7 +13,7 @@ const OurStory = () => {
 
   return (
     <section>
-      <div data-aos="zoom-out" className="container mb-5 py-5">
+      <div id="our-story" data-aos="zoom-out" className="container mb-5 py-5">
         <h1 className="fw-bold my-5 text-center">
           <span className="fw-light">Our</span> Story
         </h1>
@@ -24,8 +24,8 @@ const OurStory = () => {
         </p>
       </div>
       <hr />
-      <div className=" mt-5 pt-4">
-        <div className="container">
+      <div id="resources" className=" mt-5 pt-5">
+        <div className="container mt-4">
           <h1>Company Infrastructure & Resources</h1>
           <Row md={1} lg={2}>
             <Col data-aos="fade-right">
@@ -46,10 +46,10 @@ const OurStory = () => {
         </div>
         <hr />
       </div>
-      <div className=" mt-5 pt-4">
+      <div id="csr" className=" mt-5 pt-5">
         <div className="container mb-5 pb-4">
           <div>
-            <h1 className="text-center pb-5">CSR</h1>
+            <h1 className="text-center py-5">CSR</h1>
           </div>
           <Row md={1} lg={2}>
             <Col data-aos="fade-right">
@@ -80,7 +80,7 @@ const OurStory = () => {
         </div>
         <hr />
       </div>
-      <div className="container mb-5">
+      <div id="faq" className="container mb-5">
         <Row xs={1} lg={2}>
           <Col data-aos="zoom-in">
             <h1 className="my-5">

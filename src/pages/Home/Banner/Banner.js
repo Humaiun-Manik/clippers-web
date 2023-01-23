@@ -9,7 +9,7 @@ import sixthImg from "../../../assets/images/bannar/6.jpg";
 
 const Banner = () => {
   return (
-    <header className="pt-3 mt-5">
+    <header id="home" className="pt-3 mt-5">
       <Carousel interval="3000" pause="false" variant="dark">
         <Carousel.Item>
           <img className="d-block w-100" src={firstImg} alt="First slide" />

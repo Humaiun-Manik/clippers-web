@@ -18,7 +18,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="services">
+    <section id="services" className="services">
       <div className="container py-5">
         <div className=" mt-5">
           <h1 className="fw-bold">
