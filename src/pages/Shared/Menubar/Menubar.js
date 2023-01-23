@@ -32,7 +32,9 @@ const Menubar = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="#faq">FAQ</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#trial">Trial</Nav.Link>
+            <Nav.Link as={Link} to="/trial">
+              Trial
+            </Nav.Link>
             <Nav.Link href="#payment">Payment</Nav.Link>
             <Nav.Link href="#login">Login</Nav.Link>
           </Nav>

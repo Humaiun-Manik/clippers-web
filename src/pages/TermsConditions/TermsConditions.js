@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsConditions = () => {
   return (
-    <section className="container my-5 pt-5">
+    <section className="container my-5">
       <h1 className="fw-light">Terms & Conditions</h1>
       <div className="mt-4">
         <div>

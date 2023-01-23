@@ -9,8 +9,8 @@ import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 const AboutUs = () => {
   return (
     <section id="about">
-      <div className="container my-5 pt-5">
-        <h1 className="fw-bold my-5">
+      <div className="container my-5 pt-4">
+        <h1 className="fw-bold py-5">
           About <span className="fw-light">us</span>
         </h1>
         <Row xs={1} lg={2}>
